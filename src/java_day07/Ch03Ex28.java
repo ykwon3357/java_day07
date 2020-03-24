@@ -38,6 +38,13 @@ public class Ch03Ex28 {
 	 * 
 	 */
 	public static void main(String[] args) {
+		int a=1,b=1,start=0,end=5,temp,cnt=5;
+		for(int i=0;i<9;i++){
+		
+			
+		}
+	}
+	public static void homework3(String[] args) {
 		int mid=0;
 		for (int i = 0; i < arr.length; i++) {
 			for(int j=0; j<arr[i].length-mid;j++){
@@ -45,7 +52,6 @@ public class Ch03Ex28 {
 			}
 			mid = (i < 2) ? ++mid : --mid;
 		}
-		
 
 		printArr(arr);
 		
